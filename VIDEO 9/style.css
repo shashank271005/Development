@@ -1,0 +1,21 @@
+.container1 {
+    background-color: lightblue;
+    color: rgb(22, 124, 32);
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.container2 {
+    background-color: lightgreen;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.container1 {
+    margin-bottom: 10px;
+}
+
+.container2 {
+    margin-bottom: 10px;
+}
+            
