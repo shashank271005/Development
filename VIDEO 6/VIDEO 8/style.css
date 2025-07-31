@@ -1,0 +1,23 @@
+p {
+    background-color: rgb(123, 190, 171);
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+}
+
+a {
+    background-color: #ff7a63;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+span {
+    background-color: aqua;
+    font-weight: bold;
+    color: #000;
+}
+div {
+    background-color: rgb(255, 144, 144);
+    padding: 10px;
+    border: 1px solid #000000;
+}
