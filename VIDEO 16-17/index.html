@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* Element selector*/
+        div {
+            color: rgb(6, 95, 89);
+            background-color: blanchedalmond;
+        }
+        /* Class selector */
+        .another-div {
+            color: rgb(218, 60, 60);
+            background-color: rgb(255, 255, 255);
+        }
+        /* ID selector */
+        #unique-div {
+            color: rgb(0, 0, 0);
+            background-color: rgb(200, 200, 200);
+        }
+        /* Universal selector */
+        * {
+            font-family: Arial, sans-serif;
+        }
+        /* Descendant selector */
+        div p {
+            color: rgb(0, 128, 0);
+        }       
+        /* Child selector */
+        div > p {
+            color: rgb(0, 0, 255);
+        }
+        /* Adjacent sibling selector */
+        h1 + p {
+            color: rgb(255, 0, 0);
+        }
+        /* General sibling selector */
+        h1 ~ p {
+            color: rgb(128, 0, 128);
+        }
+        /* Attribute selector */
+        a[href] {
+            color: rgb(0, 0, 255);
+        }
+        /* Pseudo-class selector */
+        a:hover {
+            color: rgb(255, 0, 0);
+        }
+        /* Pseudo-element selector */
+        p::first-letter {
+            font-size: 2em;
+            color: rgb(255, 165, 0);
+        }
+        /* Media query */
+        @media (max-width: 600px) {
+            body {
+                background-color: lightblue;
+            }
+        }
+        /* Keyframes animation */
+        @keyframes example {
+            from {background-color: rgb(242, 166, 166);}
+            to {background-color: rgb(220, 220, 138);}
+        }
+        /* Applying animation */
+        div {
+            animation: example 5s infinite;
+        }       
+    </style>
+</head>
+<body>
+    <div>
+        I am a div
+    </div>
+
+    <div class="another-div">
+        I am another div
+        <article>
+            <p>I am a paragraph inside an article.</p>
+        </article>
+        <a href="https://www.google.com">google</a>
+    </div>
+</body>
+</html>
