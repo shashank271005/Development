@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Google+Sans+Code:ital,wght@0,300..800;1,300..800&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Oswald:wght@200..700&display=swap');
+
+/* The specificity of this selector is 0,0,1,0. */
+h1 {
+    color: #0e8383;
+}
+
+/* The specificity of this selector is 10. */
+.Yellow {
+    color: yellow;
+}
+
+.cred {
+    color: red;
+}
+
+.cpurple {
+    color: purple;
+}
+
+[data-x="a"] {
+    background-color: rgb(251, 176, 251);
+}
+
+.font1 {
+    font-family: 'Bitcount Single', monospace;
+    font-size: 20px;
+}
+
+.font2 {
+    font-family: "Lobster Two", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
