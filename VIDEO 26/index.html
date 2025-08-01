@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Overflow</title>
+    <style>
+        .overflow-box {
+            width: 300px;
+            height: 200px;
+            /* overflow: hidden; */
+            border: 1px solid #ccc;
+            padding: 10px;
+            overflow: auto;
+            /* Change to 'hidden' to hide overflow */
+            background-color: #f9f9f9;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            font-family: Arial, sans-serif;
+            font-size: 14px;
+            line-height: 1.5;
+            color: #333;
+            /* white-space: nowrap; */ /* make all text in one line */
+            /* Prevents text wrapping */
+            /*text-overflow: ellipsis;*/
+            /* Adds ellipsis for overflowed text */
+            /*display: block;*/
+            /* Ensures the box behaves as a block element */
+            /*overflow-x: hidden;*/
+            /* Hides horizontal overflow */
+            /*overflow-y: auto;*/
+            /* Allows vertical scrolling */
+            /*position: relative;*/
+            /* Allows for absolute positioning of child elements if needed */
+            /*margin: 20px auto;*/
+            /* Centers the box horizontally */
+            /*border-radius: 5px;*/
+            /* Adds rounded corners */
+            /*transition: box-shadow 0.3s ease;*/
+            /* Smooth transition for box shadow */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="overflow-box">
+        This is a box with overflow content.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore
+        magna aliqua.
+        Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dignissimos, delectus omnis esse
+        recusandae, est, alias facere quia amet itaque odit impedit suscipit vel. Excepturi rem accusantium repudiandae
+        ex suscipit, illum quae possimus ipsa dolores quaerat qui dignissimos a repellendus aliquam id ea dicta
+        obcaecati.
+        Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+</body>
+
+</html>
