@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+.box {
+    box-sizing: border-box;
+    border: 2px solid black;
+    /* width: 2048px; */
+    width: 80vw;
+    margin: auto;
+    background-color: aquamarine;
+}
+.container {
+     box-sizing: border-box;
+    border: 2px solid black;
+    /* width: 2048px; */
+    width: 80vw;
+    margin: 23px auto;
+    background-color: aquamarine;
+    font-size: 1em;
+    min-height: 80vh;
+}
+.container p {
+    padding: 10px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    border: 2px solid rgb(220, 18, 18);
+    color: rgb(0, 0, 0);
+    width: 50%;
+}
+.container p span{
+    padding: 10px;
+    font-size: 1.2em;
+    line-height: 1.5em;
+    border: 2px solid rgb(220, 18, 18);
+    color: rgb(0, 0, 0);
+    width: 50%;
+}
+.mycont {
+    box-sizing: border-box;
+    border: 2px solid black;
+    /* width: 2048px; */
+    width: 80vw;
+    margin: 23px auto;
+    background-color: rgb(255, 255, 255);
+    font-size: 1em;
+    min-height: 80vh;
+}
