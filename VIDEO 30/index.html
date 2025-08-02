@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Variables</title>
+    <style>
+        :root {
+            --primary-color: #8fee90;
+            --secondary-color: #333;
+            --text-color: white;
+            --defpad: 23px;
+            --defopacity: 0.8;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .nav {
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+            padding: 10px;
+        }   
+        .container {
+            padding: var(--defpad);
+            background-color: var(--primary-color);
+            margin: 10px;
+            border-radius: 5px;
+        }
+        .nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-around;
+        }
+        .nav li {
+            opacity: var(--defopacity);
+            cursor: pointer;
+            padding: 10px;
+            transition: background-color 0.3s;
+        }
+        .nav li:hover {
+            background-color: #555;
+        }
+        .nav li:first-child {
+            --primary-color: #cd6510;
+            font-weight: bold;
+            background-color: var(--primary-color);
+        }
+        .nav li:first-child:hover {
+            background-color: #a34b0c;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+    <div class="container">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, praesentium libero rerum accusamus numquam
+        sed placeat quos autem quibusdam rem. Quas esse neque exercitationem delectus voluptate saepe labore eius fugiat
+        illo vero assumenda odit, eaque laborum, facere corporis voluptatem nihil dolorum voluptas itaque deleniti
+        nulla.
+
+    </div>
+
+</body>
+
+</html>
