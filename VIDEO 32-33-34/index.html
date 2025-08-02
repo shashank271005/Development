@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float & Clear</title>
+    <style>
+        .cards {
+            width: 100%;
+            display: flow-root;
+            flex-wrap: wrap;
+            justify-content: center;
+            border: 2px solid black;
+        }
+
+        img {
+            float: right;
+            margin-right: 10px;
+        }
+
+        .card {
+            border: 2px solid red;
+            padding: 10px;
+            margin: 10px;
+        }
+        .card:nth-child(3) {
+            background-color: lightblue;
+            /* clear: right; */
+            clear: both;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="cards">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTnciVI9kQK6IMoiAK5GaxvRasErgJH0tFL2Q&s" alt="">
+        <div class="card">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime, adipisci earum tempore necessitatibus,
+                distinctio dolor, tenetur tempora neque eius dolorem nobis laborum fuga impedit quo. Soluta modi
+                officiis beatae vitae,Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi sequi voluptates
+                dolores accusantium fuga laudantium velit aut rerum inventore harum quod perferendis, nostrum
+                consectetur dolore tempora ex veniam esse iure sint in accusamus? Ipsa sequi vitae praesentium sapiente
+                placeat expedita quasi eaque iusto repudiandae, harum soluta numquam velit distinctio, obcaecati
+                accusantium autem. Quas, sed aliquam ex amet voluptas molestiae nihil quia neque molestias veritatis
+                expedita tempora tempore cupiditate consequatur voluptatibus aut. Ratione, eaque quam eum voluptatem aut
+                quo, dignissimos iusto molestias cupiditate vitae amet officiis aliquid, iste est ad repellendus id. Sit
+                ipsum accusantium id nobis minus necessitatibus, quae a voluptatum, magni maiores quo corporis nihil
+                nesciunt qui ipsam aspernatur. Quam quis veniam laudantium quasi nihil veritatis esse recusandae
+                consectetur odit repudiandae autem magni ducimus sapiente, impedit laborum suscipit eius totam natus
+                temporibus nesciunt optio voluptatibus officiis at? Ullam blanditiis suscipit laboriosam adipisci,
+                quidem porro officiis eaque saepe tenetur quas. Alias sapiente perferendis possimus, eligendi rem
+                voluptate ex perspiciatis minima amet? Vitae illum ipsa dolore excepturi odit, perspiciatis libero
+                tenetur consectetur illo eaque eligendi cupiditate delectus impedit distinctio obcaecati odio totam
+                culpa sed repudiandae commodi quasi. Voluptate quaerat illo ipsa praesentium, repudiandae tempore,
+                officia consequatur sed ab, assumenda excepturi aliquid hic similique? Tenetur harum vitae temporibus
+                reiciendis placeat excepturi commodi officiis ratione dolorum atque numquam et, deleniti in recusandae
+                officia id sit dolor. Nemo quaerat veritatis nulla placeat exercitationem eos ipsa! Totam, esse enim ea
+                officia natus molestiae! Hic labore repellat veritatis est pariatur perspiciatis suscipit ea rem harum
+                odio blanditiis error nesciunt incidunt quod, excepturi sed eligendi illum temporibus qui officiis quam
+                similique ullam asperiores! In incidunt molestiae id labore vero impedit sequi excepturi amet deserunt
+                hic, quod quidem repellat facere voluptates et minima laborum. Odit facere beatae suscipit adipisci in
+                assumenda nihil ratione pariatur laudantium impedit autem tempore ipsa sapiente doloribus harum, tenetur
+                quam error officiis enim. Quas nihil perferendis laboriosam similique! Voluptas minima odio dolores
+                labore veniam alias pariatur, quam numquam aperiam blanditiis eius velit quas rerum amet inventore
+                necessitatibus. debitis quo omnis.</p>
+        </div>
+        <div class="card">Card 2</div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+
+</html>
