@@ -1,0 +1,134 @@
+  body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: #727272;
+  }
+
+  .navbar {
+      background-color: #333;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      position: sticky;
+      top: 0;
+  }
+
+  .navbar nav ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+  }
+
+  .navbar nav ul li {
+      display: inline;
+      padding: 15px 20px;
+  }
+
+  .navbar nav ul li {
+      color: white;
+      text-decoration: none;
+  }
+
+  .navbar nav ul li:hover {
+      background-color: #ccc;
+      border-radius: 310px;
+      color: black;
+      font-size: larger;
+      opacity: 0.8;
+  }
+
+  .boxes {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 20px;
+  }
+
+  .box1 {
+      background-color: white;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 10px;
+      width: 200px;
+      text-align: center;
+      display: inline-block;
+  }
+
+  .box2 {
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 10px;
+      width: 200px;
+      text-align: center;
+      display: inline-block;
+  }
+
+  .box3 {
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 10px;
+      width: 200px;
+      text-align: center;
+      display: inline-block;
+  }
+
+  .box4 {
+      background-color: #f0f0f0;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 10px;
+      width: 200px;
+      text-align: center;
+      display: inline-block;
+  }
+
+  .box1:hover,
+  .box2:hover,
+  .box3:hover,
+  .box4:hover {
+      background-color: #e0e0e0;
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+  }
+
+  .box1:active,
+  .box2:active,
+  .box3:active,
+  .box4:active {
+      transform: scale(0.95);
+      transition: transform 0.1s ease;
+  }
+
+
+  .content {
+      text-align: center;
+      color: white;
+      margin-top: 20px;
+      border: 5px solid #ccc;
+      border-radius: 10vw;
+      border-style: dotted;
+  }
+
+  .p {
+      padding: 20px;
+      font-size: 1.2em;
+      line-height: 1.5;
+      align-self: start;
+      margin: 20px;
+      overflow: auto;
+  }
+
+  .circle {
+      display: flex;
+      justify-content: right;
+      margin-top: 20px;
+      position: relative;
+  }
